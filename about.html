@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <!--navbar-->
+  <div class="navbar navbar-expand-md navbar-light" id="navbar">
+    <a href="#" class="navbar-brand">
+      <img src="./th (3).jpg">
+    </a>
+    <ul class="navbar-nav m1-auto">
+      <li class="nav-item"><a href="./index.html" class="nav-link active">HOME</a></li>
+      <li class="nav-item"><a href="./about.html" class="nav-link active">ABOUT US</a></li>
+
+      <li class="nav-item"><a href="./contact.html" class="nav-link active">CONTACT US</a></li>
+
+       <li class="nav-item"><a href="#" class="nav-link active">SERVICES</a></li>
+    </ul>
+  </div>
+ <br>
+ <!--content -->
+ <center>
+  <div id="ab" class="container-fluid">
+
+    <div class="row ">
+      
+      <img class= "im" src="data:image/jpeg;base64,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" width="1020" height="200">
+       <div class="card-body">
+            <p class="card-text">
+              
+            <b>  <br>ABOUT US</br></b>
+              
+              
+              We pride ourselves as one of the chennais finest laptop repair center,
+
+              <br> Our technicians specialise in repairing all makes and models of laptops like Dell, Hp, Lenovo, Acer,</br>
+               <br>Toshiba, Apple etc., We can offer you a fast and cost effective repair solution for all your laptop need,</br>
+               <br>We offer a convenient and fast service where we can collect your laptop for repair any chennai OMR address may</br>
+               it be work or home.
+               Our laptop service render professional repairs including all brand laptop broken screens, software and
+               hardware upgrades, water damage etc. Our proficient engineers are highly experienced technicians which
+               provides quality repair services.
+               If you cannot see your repair need here, please visit our laptop service gbs omr at kandanchavadi and
+               Thoraipakkam or contact us via Live Chat / give us a call for further details</p>
+
+
+
+            <p class="card-text"></p>
+          </div>
+      </div>
+  </div>
+  </center>
+  
+  </br>
+
+
+  <!--footer-->
+  <div class="container-fluid" id="footer">
+    <div class="row">
+      <div class="col p-5 m-3">
+        <h3 class="text-info">
+          <br> 26+ Years of IT Experience </br>
+          <br> 5 Laptop Service Centers</br>
+          <br> 50+ Employees</br>
+        </h3>
+
+
+        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+        <p class="text-secondary">ADDRESS:5/6 BHARATHI SALAI KARAMBAKKAM,PORUR,CHENNAI 116</p>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

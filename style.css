@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    background-color: #B0E0E6!important;
+
+}
+#navbar img{
+    height:65px !important;
+    width:auto;
+}
+#slide1
+{
+    height: 600px !important;
+    width: 100%;
+}
+#slide img{
+     height: 600px !important;
+     width:100%;
+     
+}
+#footer {
+    background-color:#B0E0E6;
+    height :10% !important;
+}
+#card1{
+    background-color: yellowgreen;
+}
+#formcolor{
+    background-color: burlywood;
+    background-image: url(https://images.wallpaperscraft.com/image/board_black_line_texture_background_wood_55220_300x168.jpg);
+
+
+}
+#ab{
+    background-color:palevioletred;
+    backface-visibility: visible;
+    height: 600px;
+    image-orientation: center;
+    
+    
+}
+#bg{
+    background-image: url();
+}
+#home
+{
+    background-color: pink;
+    font-family:Georgia,  serif ;
+    height :300%;
+
+}
+#b3
+{
+    background-color: #00FFFF !important;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
